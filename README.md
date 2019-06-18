@@ -1,29 +1,25 @@
-[![CircleCI](https://circleci.com/gh/ionic-jp/ionic-docs/tree/master.svg?style=svg)](https://circleci.com/gh/ionic-jp/ionic-docs/tree/master)
-
 # Who use Ionic?
-Ionicプロダクトの採用事例をまとめています。ぜひ、あなたのプロジェクトを追加ください。
 
-https://github.com/ionic-jp/who-use-ionic/blob/master/src/assets/data.json
+Here is the repository gathering application showcase for Ionic apps in Hong Kong.
 
-追加するJSONオブジェクトは、以下の形式に沿って作成ください。
+Please submit Merge Request for adding yours to the list.
+
+
+## Data Structure
+
+https://github.com/ionic-hk/who-use-ionic/blob/master/src/assets/data.json
 
 ```json
 {
-  "name": "アプリ名",
-  "image": "画像URL。空白で大丈夫です",
-  "description": "アプリの概要を10文字程度で紹介ください",
-  "author": "作者名",
-  "websiteUrl": "公式URL",
+  "name": "Application Name",
+  "image": "Image URL - Leave blank if none",
+  "description": "Short description",
+  "author": "",
+  "websiteUrl": "",
   "platform": {
-    "ios": "アプリURL（itunes.apple.com）。ない場合は空白",
-    "android": "アプリURL（play.google.com）。ない場合は空白",
-    "web": "PWAのURL。ない場合は空白"
+    "ios": "App Store URL - Leave blank if none",
+    "android": "Google Play URL - Leave blank if none",
+    "web": "PWA URL - Leave blank if none"
   }
 }
 ```
-
-
-# Awesome who-use-**-in-japan
-- **Angular** https://github.com/ng-japan/who-use-angular-in-japan
-- **Node.js** https://github.com/nodejsjp/who-use-nodejs-in-japan
-- **Vue.js** https://github.com/vuejs-jp/who-use-vuejs-in-japan
